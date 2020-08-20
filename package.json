@@ -11,8 +11,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "node server/index.js",
-    "build": "npm run less && webpack --mode development",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
